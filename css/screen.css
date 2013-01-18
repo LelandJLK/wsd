@@ -1,0 +1,294 @@
+#container {
+	width: 960px;
+	margin: auto;
+	background-image: url(../images/background.png);
+	}
+
+#indexheader {
+	position: relative;
+	}
+
+.social {
+	position: absolute;
+	}
+
+#headpic {
+	float: left;
+	margin: 15px 0 0 15px;
+	}
+
+#logo {
+	margin: 0;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	}
+	
+.mainnavigation {
+	background-image: url(../images/nav.png);
+	height: 50px;
+	clear: left;
+		}
+
+.mainnavigation p {
+	float: right;
+	padding-right: 2%;
+	margin: 0;
+	padding-top: 10px;
+	}
+
+.mainnav li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	display: block;
+	width: 121px;
+	height: 40px;
+	float: left;
+	margin-left: -15px;
+	border: 5px solid white;
+	}
+	
+.mainnav a {
+	font-family: "Myriad Pro", "Verdana", "Helvetica";
+	font-size: 1.15em;
+	text-decoration: none;
+	background-color: blue;
+	margin: 0;
+	padding: 10px 0 0 10px;
+	}
+
+.mainnav li:link {
+	color: black;
+	}
+.ainnav li:visited {
+	color: brown;
+	}
+.mainnav li:hover {
+	text-transform: underline;
+	color: white;
+	}
+.mainnav li:active {
+
+	}
+
+
+#indexintro {
+	width: 600px;
+	height: 1028px;
+	margin: 1.5%;
+	float: left;
+	background-color: #acab75;
+	clear: both;
+	}
+
+#indexintro h2 {
+	margin-top: 25px;
+	margin-left: 85px;
+	}
+
+#indexintro img {
+	margin-left: 10%;
+	}
+ 
+#indexintro p {
+	margin: 0;
+ 	padding: 25px;
+ 	}
+
+#sidebar {
+	width: 300px;
+	margin: 1.5%;
+	background: #c5cbc5 url(../images/sidebarbackground);
+	background-attachment: repeat;
+	float: left;
+	}
+
+#sidebar h3 {
+	margin-top: 25px;
+	margin-left: 70px;
+	}
+
+#sidebar p {
+	margin: 0;
+	padding: 25px;
+	}
+
+#sidebar img {
+	margin: 0;
+	padding-left: 33px;
+	}
+
+#indexpics {
+	background-color: #acab75;
+	clear: both;
+	width: 920px;
+	height: 550px;
+	margin-left: 1.5%;
+	}
+
+#indexpics h3 {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-left: 150px;
+	padding-top: 3%;
+	}
+
+.header {
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 325px;
+	}
+
+#detailsintro {
+	background-color: #acab75;
+	width: 920px;
+	margin: 1.5%;
+	}
+
+#detailsintro h2 {
+	padding-left: 60px;
+	padding-top: 25px;
+	margin: 0 0 10px 0;
+	}
+
+#detailsintro iframe {
+	margin-left: 25px;
+	margin-top: 15px;
+	}
+
+#detailsintro p {
+	padding: 25px;
+	}
+	
+#detailsintro #detailsspecs {
+	width: 315px;
+	background-color: #c3c2aa;
+	float: right;
+	margin: 15px 25px 25px 25px;
+	}
+
+#detailsmain {
+	padding: 5px;
+	}
+	
+#celebrities {
+	width: 920px;
+	}
+
+#celebheader {
+	margin-left: 280px;
+	}
+
+.celebs {
+	float: left;
+	text-align: center;
+	margin-left: 35px;
+	margin-bottom: 25px;
+	}
+
+
+.rebuildheader {
+	padding-left: 25px;
+	background-color: black;
+	height: 91px;
+	}
+	
+#gallery li {
+	margin: 15px 0 15px 83px;
+	display: block;
+	width: 276px;
+	height: 200px;
+	border: 5px solid white;
+	float: left;
+	}
+
+	
+#jeeplinks {
+	width: 920px;
+	background-color: #acab75;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	margin-left: 1.5%;
+	clear: both;
+	}
+
+#jeeplinks p {
+	padding: 15px;
+	}
+	
+section p {
+	clear: both;
+	}
+	
+nav a:link {
+	border: 2px solid white;
+	}
+nav a:visited {
+	border: 2px solid aqua;
+	}
+nav a:hover {
+	border: 2px solid black;
+	}
+nav a:active {
+	border: 2px solid red;
+	}
+#footer {
+	clear: both;
+	margin-top: 50px;
+	background-color: red;
+	}
+#random {
+	clear: both;
+	}
+.spechead {
+	margin: 20px 100px 20px 100px;
+	}
+
+
+ul {
+	list-style: none;
+	line-height: 1.25;
+	}
+
+
+
+.slogan {
+	color: white;
+	font-style:italic;
+	font-size: 1.1em;
+	margin-bottom: 0;
+	}
+p {
+	font-family: "Myriad Pro", "Verdana", "Helvetica", sans-serif;
+	line-height: 1.85;
+	}
+h2, h3, #celebheader, .amclogo, #progress  {
+	font-family: "Lucida Handwriting", "Verdana", "Helvetica", sans-serif;
+	color: white;
+	}
+	
+h4 {
+	font-family: "Myriad Pro", "Verdana", "Helvetica", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	}
+
+#progress {
+	margin-left: 325px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
